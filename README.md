@@ -13,7 +13,7 @@ Since this application was built with the Pythonic framework Streamlit, the prim
 
 ## Running the App
 Streamlit applications can be run by using the command below: 
-  ```{python} streamlit run main.py```
+  ``` streamlit run main.py```
 **Note**: 'main.py' is the name of the primary file which runs the Streamlit pages. If any modifications are made to this file's name, alter the
 'streamlit run' command. 😄
 
