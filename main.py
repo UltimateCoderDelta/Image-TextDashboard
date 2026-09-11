@@ -2,9 +2,9 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 
-home_page = st.Page("data/pages/Home.py", title="Home", icon="🏠")
-image_page = st.Page("data/pages/image_classification.py", title="Image Classification", icon="📸")
-text_page = st.Page("data/pages/text_classification.py", title="Text Classification", icon="✏️")
+home_page = st.Page("pages/Home.py", title="Home", icon="🏠")
+image_page = st.Page("pages/image_classification.py", title="Image Classification", icon="📸")
+text_page = st.Page("pages/text_classification.py", title="Text Classification", icon="✏️")
 
 pages = st.navigation([home_page, image_page, text_page])
 
